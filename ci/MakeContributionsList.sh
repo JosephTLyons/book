@@ -3,22 +3,22 @@
 cd ..
 
 # Delete previous contribution file
-rm contributors.md
+rm Contributors.md
 
 # Create file and insert first line
-echo "## Contributors:" > contributors.md
+echo "## Contributors:" > Contributors.md
 
 # Insert newline
-echo >> contributors.md
+echo >> Contributors.md
 
 # Insert contributor list
-git shortlog --summary >> contributors.md
+git shortlog --summary >> Contributors.md
 
 # Insert newline
-echo >> contributors.md
+echo >> Contributors.md
 
-echo "*This list was generated through the git shortlog command.*" >> contributors.md
+echo "*This list was generated through the git shortlog command.*" >> Contributors.md
 
 while read p; do
   echo $p
-done < contributors.md
+done < Contributors.md
