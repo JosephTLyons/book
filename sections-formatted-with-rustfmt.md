@@ -3,8 +3,6 @@
 This document details which sections of [The Rust Programming Language book](https://github.com/rust-lang/book)
 contain code blocks that have been processed with [`rustfmt`](https://github.com/rust-lang/rustfmt).
 
-This document details
-
 # When to Reformat a Section with `rustfmt`
 
 Finding the perfect balance between keeping the code in the book up-to-date with
